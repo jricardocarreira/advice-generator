@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/images/favicon-32x32.png" type="image/png">
 
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/responsive">
 
     <title>Gerador de conselhos</title>
 </head>
 <body>
     <main class="container">
         <div class="card">
-            <p class="counter">Conselho #63</p>
+            <h2 class="counter">Conselho #63</h2>
             <p class="advice">"É fácil sentar e prestar atenção, o que é difícil é levantar e agir. </p>
-            <hr class="break">
-            <button class="button">#</button>
+            <picture>
+                <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
+                <img src="src/images/pattern-divider-desktop.svg" alt="Divider">
+            </picture>
+            <button class="advice-button">
+                <img src="src/images/icon-dice.svg" alt="Dice icon">
+            </button>
         </div>
     </main>
 
