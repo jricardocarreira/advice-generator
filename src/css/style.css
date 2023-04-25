@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     text-align: center;
     background-color: var(--advice-card-color);
-    width: 345px;
+    width: 465px;
     margin: 20px;
     border-radius: 10px;
 }
@@ -47,7 +47,7 @@ body {
     width: 60px;
     border-radius: 50%;
     border: none;
-    /*Para deixar o botão em cima da minha final: */
+    /*Para deixar o botão em cima da linha final: */
     transform: translateY(50%);
 }
 
