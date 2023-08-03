@@ -7,51 +7,53 @@ body {
     font-size: 18px;
 }
 
-.container {
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.card {
+.advice {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     background-color: var(--advice-card-color);
-    width: 465px;
-    margin: 20px;
     border-radius: 10px;
+    margin: 20px;
+    width: 345px;
 }
 
-.card .counter {
-    text-transform: uppercase;
+.advice .advice-id {
     color: var(--advice-dice-color);
+    text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 15px;
     margin-top: 30px;
 }
 
-.card .advice {
+.advice .advice-description {
     font-size: 23px;
-    text-align: center;
     padding: 23px;
+    text-align: center;
     color: var(--text-color);
+    transition: 0.5s;
 }
 
-.card .advice-button {
-    background-color: var(--advice-dice-color);
-    height: 60px;
+.advice .advice-button {
     width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: none;
-    /*Para deixar o botão em cima da linha final: */
+    background-color: var(--advice-dice-color);
     transform: translateY(50%);
 }
 
-.card .advice-button:hover {
+.advice .advice-button>img {
+    padding-top: 3px;
+}
+
+.advice .advice-button:hover {
     color: #53ffab;
     cursor: pointer;
     box-shadow: 0 0 15px var(--advice-dice-color);

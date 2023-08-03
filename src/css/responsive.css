@@ -1,10 +1,10 @@
 @media(min-width: 768px){
-    .card{
+    .advice{
         padding-inline: 50px;
-        width: 38px;
+        width: 386px;
     }
-    .card p{
+    .advice .advice-description {
         font-size: 21px;
-        padding: 26px;
+        padding: 26px 0;
     }
 }

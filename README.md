@@ -5,22 +5,24 @@ Esse é a solução da realização de um Gerador de conselhos proposto pelo cur
 
 ## Desafio 
 
-Construir um aplicativo que gere conselhos aleatórios, para ser aprimorado as habilidades de posicionamento de elementos usando flexbox e utilização de APIs.
+Construir um aplicativo que gere conselhos aleatórios, para ser aprimorado as habilidades de posicionamento de elementos usando flexbox e utilização de API.
 
-Essa é a primeira etapa do exercício, logo foi realizado somente a construção do HTML e CSS.
+Para gerar um novo conselho aleatório foi utilizado a API [Advice Slip](https://api.adviceslip.com/) e Javascript
 
 ## Screenshots
 
 Versão para desktop
 
-<img src="./design/screenshot-desktop.png">
+<img src="./design/capture-desktop-advice-card.gif">
 
 Versão para mobile
 
-<img src="./design/screenshot-mobile.png">
+<img src="./design/capture-mobile-advice-card.gif">
 
 ## Tecnologias utilizadas
 
 - HTML
 - CSS
 - Flexbox
+- Javascript
+- API 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +10,17 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/variables.css">
-    <link rel="stylesheet" href="src/css/responsive">
+    <link rel="stylesheet" href="src/css/responsive.css">
 
     <title>Gerador de conselhos</title>
 </head>
+
 <body>
-    <main class="container">
-        <div class="card">
-            <h2 class="counter">Conselho #63</h2>
-            <p class="advice">"É fácil sentar e prestar atenção, o que é difícil é levantar e agir."</p>
+    <main class="card">
+        <div class="advice">
+            <h2 class="advice-id"></h2>
+            <p class="advice-description"></p>
+            
             <picture>
                 <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
                 <img src="src/images/pattern-divider-desktop.svg" alt="Divider">
@@ -28,6 +31,7 @@
         </div>
     </main>
 
-    
+    <script src="./src/js/index.js"></script>
 </body>
+
 </html>
